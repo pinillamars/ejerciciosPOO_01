@@ -11,7 +11,19 @@ class Poligono{
     }
     area(){
         if (this.apotema !== null){
-            
+
         }
+    }
+    tipo(){
+        if(this.lados === 5){
+            console.log("Se trata de un Pentágono");
+        }else if(this.lados === 4){
+            console.log("Se trata de un Cuadrado");
+        }else{
+            console.log("Se trata de un Triángulo");
+        }
+    }
+    altura(){
+        
     }
 }
