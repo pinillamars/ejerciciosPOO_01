@@ -8,6 +8,6 @@ class Persona{
 }
 class Profesor extends Persona{
     enseñar(){
-        console.log("Estoy enseñando");
+        console.log("Está enseñando");
     }
 }
